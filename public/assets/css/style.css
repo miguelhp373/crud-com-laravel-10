@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container-table, .container-form{
+    margin:30px 0px 0px 0px;
+}
+
+.container-image-profile > .row >img{
+    height:90px;
+    width:120px;
+    border-radius:100%;
+}
+
+.footer-btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
